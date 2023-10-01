@@ -1,0 +1,236 @@
+body{
+    box-sizing: border-box;
+    /* display: flex; */
+    color: aliceblue;
+}
+
+
+body {
+    margin: 0;
+    padding: 1%;
+    font-family: 'Poppins', sans-serif;
+    width: auto;
+    height: auto;
+    background-color: black;
+    color: aliceblue
+} 
+
+/* font-family: 'Cormorant Upright', serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
+h1{
+    font-family: 'Cormorant Upright', serif ;
+    font-weight: 700 ;
+    font-size: 44px;
+}
+header {
+    width: 100%;
+    background-color: black;
+    max-height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    padding: 20px;
+}
+nav{
+    display: flex;
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    
+}
+header h1{
+    margin: 0;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+
+/*header li{
+    color: chocolate;
+}*/
+
+header nav{
+    display: flex;
+    width: 70%;
+    /* max-width: 250px; */
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 30%;
+}
+
+header li a {
+    text-decoration: none;
+    color: white;
+
+}
+
+header p{
+    padding-right: 1%;
+    justify-content: space-around;
+}
+.head{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.left{
+    margin-left: 10%;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    padding-right: 5%;
+    
+}
+
+.chase{
+    font-family: 'Cormorant Upright', serif;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 29.9px;
+}
+.bold{
+    font-family: 'Cormorant Upright', serif;
+    font-weight: 700;
+    font-size: 90px;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #DCCA87;
+
+}
+
+.text{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+.text1{
+    margin-left: 6%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+button{
+    width: 157px;
+    height: 44px;
+    cursor: pointer;
+    background-color: #DCCA87;
+    font-family: 'Cormorant Upright', serif;
+}
+
+
+.Culinary{
+    display: flex;
+    background-image: url(./images/G.png);
+    background-repeat: no-repeat;
+    background-position: 45%;
+    padding-bottom: 5%;
+    background-color: #0C0C0C;
+    ;
+    margin-left: 10%;
+}
+p12{
+    font-family: 'Cormorant Upright', serif;
+    font-weight: 600;
+    font-size: 64px;
+    color: #DCCA87;
+    /* padding-left: 1%; */
+    /* padding-right: -50%;
+    padding-left: -100%; */
+}
+p13{
+    font-family: 'Cormorant Upright', serif;
+    font-weight: 600;
+    font-size: 64px;
+    color: #DCCA87;
+    margin-top: 16%;
+    padding-right: 27%;
+
+}
+.Aboutus{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Cormorant Upright', serif;
+    margin-top: 23%;
+    margin-left:-2%;
+    /*margin-right: 3%; */
+    /* font-weight: 600;
+    size: ; */
+} 
+.OurHistory{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Cormorant Upright', serif;
+    margin-right: 5%;
+    /* padding-right: 4%; */
+    /* margin-right: -333%; */
+    margin-top: 16%; 
+    
+    
+    
+    
+    /* font-weight: 600;
+    size: ; */
+} 
+.Rotate90{
+    transform: rotate(-180deg);
+}
+.Rotate9{
+    transform: rotate(360deg);
+    margin-right: 85%;
+    
+    
+}
+
+.Culinary{
+    margin-top: 10%;
+    display: flex;
+    align-content: space-between;
+}
+
+button1{
+    width: 157px;
+    height: 44px;
+    cursor: pointer;
+    background-color: #DCCA87;
+    font-family: 'Cormorant Upright', serif;
+    color: black;
+    margin-top: 3%;
+    /* margin-left: 64%; */
+}
+button2{
+    width: 157px;
+    height: 44px;
+    cursor: pointer;
+    background-color: #DCCA87;
+    font-family: 'Cormorant Upright', serif;
+    color: black;
+    margin-right: 58%;
+    margin-top: 3%;
+    
+}
+/* .Aboutus,
+.OurHistory{
+    margin-top: 10%;
+    margin-left: 5%;
+} */
+.image{
+    margin-top: 12%;
+}
+
+
