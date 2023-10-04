@@ -50,9 +50,6 @@ header h1{
 }
 
 
-/*header li{
-    color: chocolate;
-}*/
 
 header nav{
     display: flex;
@@ -119,7 +116,7 @@ main {
     font-size: 16px;
 }
 .text1{
-    margin-left: 6%;
+    margin-left: 2%;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -133,16 +130,24 @@ button{
     font-family: 'Cormorant Upright', serif;
 }
 
+.GG{
+    position: absolute;
+    left: 31.5%;
+    top: 155%;
+    /* z-index: -2; */
+}
+
 
 .Culinary{
     display: flex;
-    background-image: url(./images/G.png);
+    background-image: url(./images/BG.jpg);
     background-repeat: no-repeat;
     background-position: 45%;
     padding-bottom: 5%;
-    background-color: #0C0C0C;
-    ;
-    margin-left: 10%;
+    
+    /* background-color: #0C0C0C;
+    ; */
+    /* margin-left: 10%; */
 }
 p12{
     font-family: 'Cormorant Upright', serif;
@@ -158,16 +163,19 @@ p13{
     font-weight: 600;
     font-size: 64px;
     color: #DCCA87;
-    margin-top: 16%;
-    padding-right: 27%;
+    padding-right: 29%;
+    width:400px;
+    /* margin-top: 16%;
+    padding-right: 27%; */
 
 }
 .Aboutus{
     display: flex;
     flex-direction: column;
     font-family: 'Cormorant Upright', serif;
-    margin-top: 23%;
-    margin-left:-2%;
+    margin-top: 21%;
+    margin-left:4%;
+    z-index: 1;
     /*margin-right: 3%; */
     /* font-weight: 600;
     size: ; */
@@ -176,23 +184,16 @@ p13{
     display: flex;
     flex-direction: column;
     font-family: 'Cormorant Upright', serif;
-    margin-right: 5%;
-    /* padding-right: 4%; */
-    /* margin-right: -333%; */
-    margin-top: 16%; 
-    
-    
-    
-    
-    /* font-weight: 600;
-    size: ; */
+    margin-top: 21%;
+    margin-right: 10%; 
+    z-index: 1;
 } 
 .Rotate90{
     transform: rotate(-180deg);
 }
 .Rotate9{
     transform: rotate(360deg);
-    margin-right: 85%;
+    margin-right: 89%;
     
     
 }
@@ -220,7 +221,7 @@ button2{
     background-color: #DCCA87;
     font-family: 'Cormorant Upright', serif;
     color: black;
-    margin-right: 58%;
+    margin-right: 62%;
     margin-top: 3%;
     
 }
@@ -231,6 +232,32 @@ button2{
 } */
 .image{
     margin-top: 12%;
+    padding-right: 1%;
+    padding-left: 2%;
+    z-index: 1;
+}
+
+.head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Cormorant Upright', serif;
+}
+
+p14{
+    font-size: 23px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+P15{
+    font-weight: 600;
+    font-size: 64px;
+    color: #DCCA87;
+}
+
+.Wine{
+    list-style-type: none;
 }
 
 
