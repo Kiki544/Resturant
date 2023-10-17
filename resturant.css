@@ -6,6 +6,7 @@
 body {
     box-sizing: border-box;
     color: aliceblue;
+
 }
 
 
@@ -456,6 +457,8 @@ h5 {
 
 
 
+
+
 h7 {
     font-family: 'Cormorant Upright';
     font-size: 1.4375rem;
@@ -499,6 +502,109 @@ h2 {
 
     width: 1293.730px;
 }
+
+
+
+.merit {
+    background-image: url(./images/Mask\ Group.jpg);
+    background-color: #0C0C0C;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: auto;
+    margin-top: -5.9375rem;
+}
+
+.awards {
+    margin-left: 12.5rem;
+}
+
+.double-spoon img {
+    margin-left: -9.375rem;
+    margin-top: 3.125rem;
+    width: 6.25rem;
+    height: 6.25rem;
+}
+
+.awards ul {
+    display: flex;
+    margin-top: 3.125rem;
+    margin-left: -3.125rem;
+}
+
+.awards ul img {
+    width: 3.125rem;
+    height: 3.125rem;
+}
+
+.award-recognition h9 {
+    font-family: 'Cormorant Upright';
+    margin-bottom: 0.3125rem;
+}
+
+.award-recognition h2 {
+    font-family: 'Cormorant Upright';
+    font-size: 2rem;
+    font-weight: 600;
+    color: #DCCA87;
+}
+
+.awards ul h5 {
+    color: #DCCA87;
+    margin-left: 1.25rem;
+    margin-top: -0.3125rem;
+    margin-bottom: 0.3125rem;
+}
+
+.awards ul p {
+    color: #AAAAAA;
+    width: 9.375rem;
+    margin-left: 1.25rem;
+}
+
+.aside-img img {
+    width: 21.875rem;
+    height: 30rem;
+    margin-left: 34.375rem;
+    margin-top: -28.125rem;
+}
+
+.photoGallery {
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.instagram {
+    margin-top: 2rem;
+    margin-left: 3rem;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    /* height: 14rem; */
+
+}
+
+h9 {
+    font-family: 'Cormorant Upright', serif;
+}
+
+.gallery {
+    margin-left: 3rem;
+}
+
+#photoo {
+    margin-top: 2rem;
+
+}
+
+.ne {
+    font-size: 12px;
+}
+
+
+/* justify-content: space-evenly; */
 
 
 /* @media screen and (min-width: 576px) {
