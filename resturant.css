@@ -688,8 +688,7 @@ li2 {
     display: flex;
     flex-direction: row;
     align-content: space-between;
-
-
+    margin-left: 20rem;
 }
 
 .Newsletter {
@@ -705,10 +704,25 @@ h12 {
 
 }
 
+p10 {
+    font-size: 12px;
+    font-family: 'open-sans';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 #wee {
     display: flex;
     flex-direction: column;
+    align-items: center;
 
+}
+
+.best {
+    font-size: 12px;
+    font-family: 'open-sans';
+    margin-top: -1rem;
 }
 
 #GER {
@@ -716,7 +730,30 @@ h12 {
     flex-direction: column;
     text-align: center;
     align-items: center;
+    margin-top: -3rem;
 
+}
+
+#qwe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+
+}
+
+#qwe ul {
+    list-style-type: none;
+    font-size: 12px;
+    text-align: center;
+    font-family: 'open-sans';
+
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    font-family: 'open-sans';
 }
 
 
